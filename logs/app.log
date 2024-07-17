@@ -1,0 +1,227 @@
+{"time":"2024-07-17T08:08:26.998986999+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T08:08:27.002347686+05:00","level":"ERROR","msg":"Failed listen","error":"listen tcp: address ::50051: too many colons in address"}
+{"time":"2024-07-17T08:08:49.029435586+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T08:08:49.032626606+05:00","level":"ERROR","msg":"Failed listen","error":"listen tcp :50051: bind: address already in use"}
+{"time":"2024-07-17T08:08:59.568570927+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T08:08:59.571774162+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T09:35:40.196251459+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T09:35:40.199600954+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T09:43:29.255766288+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T09:43:29.259905633+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T09:44:07.80680998+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T09:44:07.810449508+05:00","level":"ERROR","msg":"Failed listen","error":"listen tcp: address ::50053: too many colons in address"}
+{"time":"2024-07-17T09:44:10.231770796+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T09:44:10.235143868+05:00","level":"ERROR","msg":"Failed listen","error":"listen tcp: address ::50053: too many colons in address"}
+{"time":"2024-07-17T09:44:14.822627442+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T09:44:14.826135788+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T09:50:17.440439269+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T09:50:17.44452584+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T09:52:54.695081726+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T09:52:54.698788858+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T09:53:14.357958381+05:00","level":"INFO","msg":"Create Itineraries"}
+{"time":"2024-07-17T09:53:14.359747091+05:00","level":"ERROR","msg":"Failed create itineraries","error":"pq: null value in column \"id\" of relation \"itineraries\" violates not-null constraint"}
+{"time":"2024-07-17T09:55:20.177099912+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T09:55:20.180548207+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T09:55:25.86002864+05:00","level":"INFO","msg":"Create Itineraries"}
+{"time":"2024-07-17T09:55:25.872292803+05:00","level":"ERROR","msg":"Failed create itineraries","error":"sql: Scan error on column index 0, name \"id\": destination not a pointer"}
+{"time":"2024-07-17T09:55:44.690557213+05:00","level":"INFO","msg":"Create Itineraries"}
+{"time":"2024-07-17T09:55:44.693700265+05:00","level":"ERROR","msg":"Failed create itineraries","error":"sql: Scan error on column index 0, name \"id\": destination not a pointer"}
+{"time":"2024-07-17T09:56:35.234943627+05:00","level":"INFO","msg":"Create Itineraries"}
+{"time":"2024-07-17T09:56:35.244638358+05:00","level":"ERROR","msg":"Failed create itineraries","error":"sql: Scan error on column index 0, name \"id\": destination not a pointer"}
+{"time":"2024-07-17T09:58:23.768372783+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T09:58:23.784990939+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T09:58:28.617123126+05:00","level":"INFO","msg":"Create Itineraries"}
+{"time":"2024-07-17T09:58:43.67705715+05:00","level":"INFO","msg":"Create Itineraries"}
+{"time":"2024-07-17T09:58:43.862722039+05:00","level":"INFO","msg":"Create Itineraries"}
+{"time":"2024-07-17T09:59:21.091732364+05:00","level":"INFO","msg":"Gets Itineraries"}
+{"time":"2024-07-17T09:59:21.092203359+05:00","level":"ERROR","msg":"Failed gets itineraries","error":"sql: Scan error on column index 2, name \"author_id\": unsupported Scan, storing driver.Value type []uint8 into type *content_service.Author"}
+{"time":"2024-07-17T09:59:50.039971254+05:00","level":"INFO","msg":"Gets Itineraries"}
+{"time":"2024-07-17T09:59:50.044800569+05:00","level":"ERROR","msg":"Failed gets itineraries","error":"pq: OFFSET must not be negative"}
+{"time":"2024-07-17T10:00:50.401061847+05:00","level":"INFO","msg":"Gets Itineraries"}
+{"time":"2024-07-17T10:00:50.401528402+05:00","level":"ERROR","msg":"Failed gets itineraries","error":"sql: Scan error on column index 2, name \"author_id\": unsupported Scan, storing driver.Value type []uint8 into type *content_service.Author"}
+{"time":"2024-07-17T10:09:11.482937543+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:09:11.486449536+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:09:17.321304738+05:00","level":"INFO","msg":"Gets Itineraries"}
+{"time":"2024-07-17T10:09:41.465077271+05:00","level":"INFO","msg":"Gets Itineraries"}
+{"time":"2024-07-17T10:09:54.549798302+05:00","level":"INFO","msg":"Gets Itineraries"}
+{"time":"2024-07-17T10:10:24.911384199+05:00","level":"INFO","msg":"Get Itineraries"}
+{"time":"2024-07-17T10:10:24.912097759+05:00","level":"ERROR","msg":"Failed get itineraries","error":"pq: column \"user_name\" does not exist"}
+{"time":"2024-07-17T10:10:57.519665468+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:10:57.522700931+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:11:00.463140181+05:00","level":"INFO","msg":"Get Itineraries"}
+{"time":"2024-07-17T10:11:00.464427993+05:00","level":"ERROR","msg":"Failed get itineraries","error":"sql: Scan error on column index 0, name \"id\": destination not a pointer"}
+{"time":"2024-07-17T10:11:07.748935645+05:00","level":"INFO","msg":"Get Itineraries"}
+{"time":"2024-07-17T10:11:07.749499156+05:00","level":"ERROR","msg":"Failed get itineraries","error":"sql: Scan error on column index 0, name \"id\": destination not a pointer"}
+{"time":"2024-07-17T10:12:34.350593547+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:12:34.354010824+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:13:05.882988106+05:00","level":"INFO","msg":"Get Itineraries"}
+{"time":"2024-07-17T10:13:05.884541035+05:00","level":"ERROR","msg":"Failed get itineraries","error":"pq: column \"destination_id\" does not exist"}
+{"time":"2024-07-17T10:14:15.034970932+05:00","level":"INFO","msg":"Get Itineraries"}
+{"time":"2024-07-17T10:14:15.035709143+05:00","level":"ERROR","msg":"Failed get itineraries","error":"pq: column \"destination_id\" does not exist"}
+{"time":"2024-07-17T10:15:39.071072681+05:00","level":"INFO","msg":"Create Stories"}
+{"time":"2024-07-17T10:15:39.071415546+05:00","level":"ERROR","msg":"Failed create stories","error":"pq: INSERT has more expressions than target columns"}
+{"time":"2024-07-17T10:16:25.550363823+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:16:25.553391766+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:16:28.675403349+05:00","level":"INFO","msg":"Create Stories"}
+{"time":"2024-07-17T10:16:39.065708738+05:00","level":"INFO","msg":"Create Stories"}
+{"time":"2024-07-17T10:16:39.497427125+05:00","level":"INFO","msg":"Create Stories"}
+{"time":"2024-07-17T10:16:39.732837305+05:00","level":"INFO","msg":"Create Stories"}
+{"time":"2024-07-17T10:16:39.909212454+05:00","level":"INFO","msg":"Create Stories"}
+{"time":"2024-07-17T10:16:40.150774+05:00","level":"INFO","msg":"Create Stories"}
+{"time":"2024-07-17T10:16:40.407842469+05:00","level":"INFO","msg":"Create Stories"}
+{"time":"2024-07-17T10:16:44.611018507+05:00","level":"INFO","msg":"Create Stories"}
+{"time":"2024-07-17T10:16:47.197980736+05:00","level":"INFO","msg":"Create Stories"}
+{"time":"2024-07-17T10:16:47.379169818+05:00","level":"INFO","msg":"Create Stories"}
+{"time":"2024-07-17T10:16:55.175878152+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:16:55.176131141+05:00","level":"ERROR","msg":"Failed gets stories","error":"pq: syntax error at or near \",\""}
+{"time":"2024-07-17T10:17:01.686047473+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:17:01.686304154+05:00","level":"ERROR","msg":"Failed gets stories","error":"pq: syntax error at or near \",\""}
+{"time":"2024-07-17T10:17:36.955327714+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:17:36.955624687+05:00","level":"ERROR","msg":"Failed gets stories","error":"pq: syntax error at or near \",\""}
+{"time":"2024-07-17T10:18:10.751597235+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:18:10.751836586+05:00","level":"ERROR","msg":"Failed gets stories","error":"pq: syntax error at or near \",\""}
+{"time":"2024-07-17T10:19:55.021976795+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:19:55.02241382+05:00","level":"ERROR","msg":"Failed gets stories","error":"pq: syntax error at or near \",\""}
+{"time":"2024-07-17T10:22:28.917019898+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:22:28.920132191+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:22:32.000346047+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:22:32.000820696+05:00","level":"ERROR","msg":"Failed gets stories","error":"pq: column \"commens_count\" does not exist"}
+{"time":"2024-07-17T10:22:36.704392143+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:22:36.704686639+05:00","level":"ERROR","msg":"Failed gets stories","error":"pq: column \"commens_count\" does not exist"}
+{"time":"2024-07-17T10:23:56.551780611+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:23:56.555557765+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:24:00.891975637+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:24:00.892444582+05:00","level":"ERROR","msg":"Failed gets stories","error":"pq: column \"commens_count\" does not exist"}
+{"time":"2024-07-17T10:24:04.779545168+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:24:04.779850578+05:00","level":"ERROR","msg":"Failed gets stories","error":"pq: column \"commens_count\" does not exist"}
+{"time":"2024-07-17T10:24:56.437463922+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:24:56.440753707+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:24:59.016167835+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:24:59.021854785+05:00","level":"ERROR","msg":"Failed gets stories","error":"pq: column \"user_name\" does not exist"}
+{"time":"2024-07-17T10:25:26.95988709+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:25:26.962972661+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:25:29.302062163+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:25:53.206122696+05:00","level":"INFO","msg":"Get Stories"}
+{"time":"2024-07-17T10:25:53.206434303+05:00","level":"ERROR","msg":"Failed get stories","error":"pq: column \"commens_count\" does not exist"}
+{"time":"2024-07-17T10:26:24.7040035+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:26:24.707016055+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:26:28.05156183+05:00","level":"INFO","msg":"Get Stories"}
+{"time":"2024-07-17T10:28:01.670290571+05:00","level":"INFO","msg":"Update Stories"}
+{"time":"2024-07-17T10:28:57.827807739+05:00","level":"INFO","msg":"Delete Stories"}
+{"time":"2024-07-17T10:28:57.83615675+05:00","level":"ERROR","msg":"Failed Deleled stories","error":"pq: update or delete on table \"stories\" violates foreign key constraint \"story_tags_story_id_fkey\" on table \"story_tags\""}
+{"time":"2024-07-17T10:31:09.630381667+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:31:09.633699524+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:31:13.843142166+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:31:37.013479215+05:00","level":"INFO","msg":"Delete Stories"}
+{"time":"2024-07-17T10:31:37.014539749+05:00","level":"ERROR","msg":"Failed Deleled stories","error":"pq: update or delete on table \"stories\" violates foreign key constraint \"story_tags_story_id_fkey\" on table \"story_tags\""}
+{"time":"2024-07-17T10:32:11.438398216+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:32:42.245569169+05:00","level":"INFO","msg":"Delete Stories"}
+{"time":"2024-07-17T10:32:42.246133503+05:00","level":"ERROR","msg":"Failed Deleled stories","error":"pq: update or delete on table \"stories\" violates foreign key constraint \"story_tags_story_id_fkey\" on table \"story_tags\""}
+{"time":"2024-07-17T10:33:47.894447268+05:00","level":"INFO","msg":"Gets Itineraries"}
+{"time":"2024-07-17T10:33:54.256109458+05:00","level":"INFO","msg":"Gets Itineraries"}
+{"time":"2024-07-17T10:34:11.102039877+05:00","level":"INFO","msg":"Get Itineraries"}
+{"time":"2024-07-17T10:34:11.102847693+05:00","level":"ERROR","msg":"Failed get itineraries","error":"pq: column \"destination_id\" does not exist"}
+{"time":"2024-07-17T10:35:20.258434787+05:00","level":"INFO","msg":"Get Trending Destinations"}
+{"time":"2024-07-17T10:35:56.833984065+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:36:15.997240387+05:00","level":"INFO","msg":"Likes Stories"}
+{"time":"2024-07-17T10:36:15.997884654+05:00","level":"ERROR","msg":"Failed likes stories","error":"pq: column \"story_id\" does not exist"}
+{"time":"2024-07-17T10:38:50.85406688+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:39:19.033541444+05:00","level":"INFO","msg":"Likes Stories"}
+{"time":"2024-07-17T10:39:19.034066849+05:00","level":"ERROR","msg":"Failed likes stories","error":"pq: column \"story_id\" does not exist"}
+{"time":"2024-07-17T10:40:02.520067079+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:41:12.415292958+05:00","level":"INFO","msg":"Likes Stories"}
+{"time":"2024-07-17T10:41:12.415942583+05:00","level":"ERROR","msg":"Failed likes stories","error":"pq: column \"story_id\" does not exist"}
+{"time":"2024-07-17T10:42:58.232916064+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:42:58.236251184+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:43:27.125443916+05:00","level":"INFO","msg":"Likes Stories"}
+{"time":"2024-07-17T10:44:18.045919879+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T10:44:45.82722232+05:00","level":"INFO","msg":"Comment Stories"}
+{"time":"2024-07-17T10:47:41.74414857+05:00","level":"INFO","msg":"Get Comment Stories"}
+{"time":"2024-07-17T10:47:41.744798481+05:00","level":"ERROR","msg":"Failed get comment stories","error":"pq: column \"stories_id\" does not exist"}
+{"time":"2024-07-17T10:47:48.655966119+05:00","level":"INFO","msg":"Get Comment Stories"}
+{"time":"2024-07-17T10:47:48.660190282+05:00","level":"ERROR","msg":"Failed get comment stories","error":"pq: column \"stories_id\" does not exist"}
+{"time":"2024-07-17T10:48:54.388004661+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:48:54.391456697+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:48:57.76737714+05:00","level":"INFO","msg":"Get Comment Stories"}
+{"time":"2024-07-17T10:49:07.161694995+05:00","level":"INFO","msg":"Get Comment Stories"}
+{"time":"2024-07-17T10:50:36.920870362+05:00","level":"INFO","msg":"Message"}
+{"time":"2024-07-17T10:51:02.121788825+05:00","level":"INFO","msg":"Message"}
+{"time":"2024-07-17T10:51:02.615151014+05:00","level":"INFO","msg":"Message"}
+{"time":"2024-07-17T10:51:03.026389852+05:00","level":"INFO","msg":"Message"}
+{"time":"2024-07-17T10:51:03.250706006+05:00","level":"INFO","msg":"Message"}
+{"time":"2024-07-17T10:51:03.549564088+05:00","level":"INFO","msg":"Message"}
+{"time":"2024-07-17T10:51:06.454275782+05:00","level":"INFO","msg":"Get Message"}
+{"time":"2024-07-17T10:51:34.986783285+05:00","level":"INFO","msg":"Gets Itineraries"}
+{"time":"2024-07-17T10:51:59.452041313+05:00","level":"INFO","msg":"Update Itineraries"}
+{"time":"2024-07-17T10:51:59.452373446+05:00","level":"ERROR","msg":"Failed update itineraries","error":"pq: column \"update_at\" does not exist"}
+{"time":"2024-07-17T10:53:44.884763446+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:53:44.888153762+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:53:49.064961329+05:00","level":"INFO","msg":"Update Itineraries"}
+{"time":"2024-07-17T10:54:09.621810585+05:00","level":"INFO","msg":"Gets Destinations"}
+{"time":"2024-07-17T10:55:35.039075732+05:00","level":"INFO","msg":"Get Trending Destinations"}
+{"time":"2024-07-17T10:56:10.049853649+05:00","level":"INFO","msg":"Add Travel Tips"}
+{"time":"2024-07-17T10:56:39.572127571+05:00","level":"INFO","msg":"Get Travel Tips"}
+{"time":"2024-07-17T10:56:39.576532227+05:00","level":"ERROR","msg":"Failed get travel tips","error":"pq: column \"user_name\" does not exist"}
+{"time":"2024-07-17T10:56:45.11899879+05:00","level":"INFO","msg":"Get Travel Tips"}
+{"time":"2024-07-17T10:56:45.123649068+05:00","level":"ERROR","msg":"Failed get travel tips","error":"pq: column \"user_name\" does not exist"}
+{"time":"2024-07-17T10:58:03.723427937+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T10:58:03.726909389+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T10:58:07.819560154+05:00","level":"INFO","msg":"Get Travel Tips"}
+{"time":"2024-07-17T11:48:57.444978833+05:00","level":"INFO","msg":"Statistics User"}
+{"time":"2024-07-17T11:48:57.450866244+05:00","level":"ERROR","msg":"Failed statistics user","error":"pq: column \"sender_id\" does not exist"}
+{"time":"2024-07-17T15:29:18.936923032+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T15:29:18.947080812+05:00","level":"ERROR","msg":"Failed connect to DATA BASE","error":"pq: password authentication failed for user \"postgres\""}
+{"time":"2024-07-17T15:29:35.086925641+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T15:29:35.089609455+05:00","level":"ERROR","msg":"Failed connect to DATA BASE","error":"pq: password authentication failed for user \"postgres\""}
+{"time":"2024-07-17T15:29:42.535051702+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T15:29:42.537598983+05:00","level":"ERROR","msg":"Failed connect to DATA BASE","error":"pq: password authentication failed for user \"postgres\""}
+{"time":"2024-07-17T15:30:21.334123133+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T15:30:21.336720148+05:00","level":"ERROR","msg":"Failed connect to DATA BASE","error":"pq: password authentication failed for user \"postgres\""}
+{"time":"2024-07-17T15:30:44.116727466+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T15:30:44.119385534+05:00","level":"ERROR","msg":"Failed connect to DATA BASE","error":"pq: password authentication failed for user \"postgres\""}
+{"time":"2024-07-17T15:31:03.430656286+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T15:31:03.433807844+05:00","level":"ERROR","msg":"Failed listen","error":"listen tcp: address ::50053: too many colons in address"}
+{"time":"2024-07-17T15:31:46.48037834+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T15:31:46.48367458+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T15:32:33.16033351+05:00","level":"INFO","msg":"Get Trending Destinations"}
+{"time":"2024-07-17T15:32:47.848269119+05:00","level":"INFO","msg":"Add Travel Tips"}
+{"time":"2024-07-17T15:32:56.457499451+05:00","level":"INFO","msg":"Get Travel Tips"}
+{"time":"2024-07-17T15:37:03.035232885+05:00","level":"INFO","msg":"Get Travel Tips"}
+{"time":"2024-07-17T15:59:58.314159919+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T15:59:58.325153103+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T16:26:26.169786096+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T16:27:02.3113467+05:00","level":"INFO","msg":"Get Stories"}
+{"time":"2024-07-17T16:27:56.43882195+05:00","level":"INFO","msg":"Likes Stories"}
+{"time":"2024-07-17T16:27:56.44719737+05:00","level":"ERROR","msg":"Failed likes stories","error":"pq: duplicate key value violates unique constraint \"likes_pkey\""}
+{"time":"2024-07-17T16:28:02.777946182+05:00","level":"INFO","msg":"Likes Stories"}
+{"time":"2024-07-17T16:28:02.786188102+05:00","level":"ERROR","msg":"Failed likes stories","error":"pq: duplicate key value violates unique constraint \"likes_pkey\""}
+{"time":"2024-07-17T16:29:18.84435379+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T16:29:35.007438566+05:00","level":"INFO","msg":"Likes Stories"}
+{"time":"2024-07-17T16:30:06.683501315+05:00","level":"INFO","msg":"Get Stories"}
+{"time":"2024-07-17T16:32:02.06301801+05:00","level":"INFO","msg":"Create Itineraries"}
+{"time":"2024-07-17T16:33:12.842497822+05:00","level":"INFO","msg":"Update Itineraries"}
+{"time":"2024-07-17T16:34:00.655313585+05:00","level":"INFO","msg":"Gets Itineraries"}
+{"time":"2024-07-17T16:34:21.78374056+05:00","level":"INFO","msg":"Gets Itineraries"}
+{"time":"2024-07-17T16:34:55.559413201+05:00","level":"INFO","msg":"Gets Stories"}
+{"time":"2024-07-17T16:35:45.013411678+05:00","level":"INFO","msg":"Comment Stories"}
+{"time":"2024-07-17T16:36:04.762940831+05:00","level":"INFO","msg":"Comment Stories"}
+{"time":"2024-07-17T16:38:07.103960177+05:00","level":"INFO","msg":"Gets Destinations"}
+{"time":"2024-07-17T16:38:33.899841708+05:00","level":"INFO","msg":"Gets Destinations"}
+{"time":"2024-07-17T16:38:49.246083612+05:00","level":"INFO","msg":"Gets Destinations"}
+{"time":"2024-07-17T16:39:04.491257698+05:00","level":"INFO","msg":"Gets Destinations"}
+{"time":"2024-07-17T16:39:58.111232525+05:00","level":"INFO","msg":"Message"}
+{"time":"2024-07-17T16:40:11.043613463+05:00","level":"INFO","msg":"Get Message"}
+{"time":"2024-07-17T16:40:21.384634027+05:00","level":"INFO","msg":"Get Message"}
+{"time":"2024-07-17T16:41:09.000640527+05:00","level":"INFO","msg":"Get Travel Tips"}
+{"time":"2024-07-17T16:41:26.160458638+05:00","level":"INFO","msg":"Statistics User"}
+{"time":"2024-07-17T16:43:22.956933727+05:00","level":"INFO","msg":"Get Trending Destinations"}
+{"time":"2024-07-17T16:47:20.843339765+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T16:47:20.846514687+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T16:47:58.884931017+05:00","level":"INFO","msg":"Get Trending Destinations"}
+{"time":"2024-07-17T16:47:58.885161336+05:00","level":"ERROR","msg":"Failed get trending destinations","error":"pq: syntax error at or near \"ORDER\""}
+{"time":"2024-07-17T16:48:36.478900842+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T16:48:36.482129852+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T16:48:39.754067183+05:00","level":"INFO","msg":"Get Trending Destinations"}
+{"time":"2024-07-17T16:48:51.39654822+05:00","level":"INFO","msg":"Starting the Server"}
+{"time":"2024-07-17T16:48:51.399825706+05:00","level":"INFO","msg":"Server is Running","PORT":"50053"}
+{"time":"2024-07-17T16:48:53.599300048+05:00","level":"INFO","msg":"Get Trending Destinations"}
